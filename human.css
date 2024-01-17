@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    animation: mymove 15s infinite;
+}
+@keyframes mymove {
+    50% {background-position: center;}
+}
+#results
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 30px rgb(121, 126, 121);
+    background-image: linear-gradient(to top left,rgb(103, 97, 97),rgba(45, 3, 3, 0.228));
+    background-size: cover;
+    padding: 50px;
+    height: 500px;
+    width: 400px;
+    font-size: 20px;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+#btn
+{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 30px rgb(121, 126, 121);
+    background-image: linear-gradient(to top left,rgb(103, 97, 97),rgba(45, 3, 3, 0.228));
+    
+}
+#btn:active
+{
+    box-shadow: none;
+}

@@ -1,0 +1,50 @@
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-image: linear-gradient(to top left,rgb(244, 244, 161),rgb(166, 241, 166),rgb(132, 190, 238));
+}
+.apis
+{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding: 50px;
+}
+.apis a
+{
+    text-decoration: none;
+    color: black;
+}
+.apis a:hover
+{
+    color: blue;
+}
+.apis a:active
+{
+    color: red;
+}
+.sub
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(53, 50, 50);  
+}
+.sub:hover
+{
+    background-color: aliceblue;
+}
+.sub:active
+{
+    box-shadow: none;
+}
